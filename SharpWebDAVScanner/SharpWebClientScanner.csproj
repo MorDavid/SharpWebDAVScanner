@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7FB964E1-48FC-4CB4-AEE0-3E70E28B8372}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SharpWebClientScanner</RootNamespace>
-    <AssemblyName>SharpWebClientScanner</AssemblyName>
+    <RootNamespace>SharpWebDAVScanner</RootNamespace>
+    <AssemblyName>SharpWebDAVScanner</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
