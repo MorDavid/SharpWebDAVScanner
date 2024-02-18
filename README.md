@@ -1,4 +1,4 @@
-# SharpWebClientScanner
+# SharpWebDAVScanner
 C# tool that verifies the status of WebClient services across multiple targets in the domain. \
 This small project is designed to assess the running state of the Web Client service (WebDAV) on a remote system by examining the existence of the DAV RPC SERVICE named pipe.\
 Admin privileges are not necessary on the remote system, but valid credentials (no anonymous access) are required.\
@@ -6,13 +6,11 @@ This version has the ability to get computer list from the Active Directory or T
 ## Usage
 Scan WebClient using LDAP:
 ```
-SharpWebClientScanner.exe --domain lab.local --output output.txt
+SharpWebDAVScanner.exe --domain lab.local --output output.txt
 ```
 Scan WebClient using computer list:
 ```
-SharpWebClientScanner.exe --file computers.txt --output output.txt
+SharpWebDAVScanner.exe --file computers.txt --output output.txt
 ```
 ## Reference
 * https://github.com/G0ldenGunSec/GetWebDAVStatus
-
-<a href="https://www.buymeacoffee.com/m0rd4vid" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
